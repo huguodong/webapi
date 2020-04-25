@@ -1,0 +1,36 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-22 18:38:37,207                                   
+【执行时间】[139]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\hgd.webapi\Controllers\IndexController.cs                                   
+【debug行号】102                                   
+【debug类】hgd.webapi.Controllers.IndexController 属性[(null)]                                   
+【debug描述】测试debugSystem.Exception: debug异常
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】INFO                                   
+【记录时间】2020-04-22 18:38:37,309                                   
+【执行时间】[241]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\hgd.webapi\Controllers\IndexController.cs                                   
+【debug行号】103                                   
+【debug类】hgd.webapi.Controllers.IndexController 属性[(null)]                                   
+【debug描述】测试InfoSystem.Exception: Info异常
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】WARN                                   
+【记录时间】2020-04-22 18:38:37,309                                   
+【执行时间】[241]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\hgd.webapi\Controllers\IndexController.cs                                   
+【debug行号】104                                   
+【debug类】hgd.webapi.Controllers.IndexController 属性[(null)]                                   
+【debug描述】测试WarnSystem.Exception: Warn异常
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-22 22:23:29,706                                   
+【执行时间】[3172]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\hgd.webapi\Exceptions\WebApiExceptionFilterAttribute.cs                                   
+【debug行号】33                                   
+【debug类】hgd.webapi.Controllers.IndexController 属性[(null)]                                   
+【debug描述】controller.action=Index.Know:exception=引发类型为“hgd.webapi.Expections.KnownException”的异常。

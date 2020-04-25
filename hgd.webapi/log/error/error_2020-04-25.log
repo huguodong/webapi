@@ -1,0 +1,20 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2020-04-25 14:31:16,032                                   
+【执行时间】[57]毫秒                                   
+【出错文件】C:\Users\Administrator\source\repos\webapi\hgd.webapi\Exceptions\WebApiExceptionFilterAttribute.cs                                   
+【出错行号】40                                   
+【出错的类】hgd.webapi.Controllers.UserController 属性[(null)]                                   
+【错误描述】controller.action=User.GetUser:exception=与“System.Net.Http.HttpResponseMessage.HttpResponseMessage(System.Net.HttpStatusCode)”最匹配的重载方法具有一些无效参数                                   
+【错误详情】
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 与“System.Net.Http.HttpResponseMessage.HttpResponseMessage(System.Net.HttpStatusCode)”最匹配的重载方法具有一些无效参数
+   在 CallSite.Target(Closure , CallSite , Type , Object )
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   在 Common.Utils.toJson(Object code, Object result) 位置 C:\Users\Administrator\source\repos\webapi\Common\Utils.cs:行号 17
+   在 hgd.webapi.Security.IdentityBasicAuthentication.AuthenticateAsync(HttpAuthenticationContext context, CancellationToken cancellationToken) 位置 C:\Users\Administrator\source\repos\webapi\hgd.webapi\Security\IdentityBasicAuthentication.cs:行号 50
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()

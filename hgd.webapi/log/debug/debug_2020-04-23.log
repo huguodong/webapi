@@ -1,0 +1,183 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 15:28:55,213                                   
+【执行时间】[5974]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\Common\DB\DbContext.cs                                   
+【debug行号】26                                   
+【debug类】Common.DB.DbContext`1[[hgd.Enity.User, hgd.Enity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] 属性[(null)]                                   
+【debug描述】 SELECT COUNT(1) FROM (SELECT [Id],[Name],[Age] FROM [t_user] ) CountTable 
+{}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 15:28:55,566                                   
+【执行时间】[6327]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\Common\DB\DbContext.cs                                   
+【debug行号】26                                   
+【debug类】Common.DB.DbContext`1[[hgd.Enity.User, hgd.Enity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] 属性[(null)]                                   
+【debug描述】SELECT * FROM (SELECT [Id],[Name],[Age],ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [t_user] ) T WHERE RowIndex BETWEEN 1 AND 10
+{}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 15:33:12,642                                   
+【执行时间】[2450]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\hgd.webapi\Exceptions\WebApiExceptionFilterAttribute.cs                                   
+【debug行号】33                                   
+【debug类】hgd.webapi.Controllers.IndexController 属性[(null)]                                   
+【debug描述】controller.action=Index.Know:exception=引发类型为“hgd.webapi.Expections.KnownException”的异常。
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 15:33:45,154                                   
+【执行时间】[34961]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\Common\DB\DbContext.cs                                   
+【debug行号】26                                   
+【debug类】Common.DB.DbContext`1[[hgd.Enity.User, hgd.Enity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] 属性[(null)]                                   
+【debug描述】 SELECT COUNT(1) FROM (SELECT [Id],[Name],[Age] FROM [t_user] ) CountTable 
+{}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 15:33:45,238                                   
+【执行时间】[35046]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\Common\DB\DbContext.cs                                   
+【debug行号】26                                   
+【debug类】Common.DB.DbContext`1[[hgd.Enity.User, hgd.Enity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] 属性[(null)]                                   
+【debug描述】SELECT * FROM (SELECT [Id],[Name],[Age],ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [t_user] ) T WHERE RowIndex BETWEEN 1 AND 10
+{}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 15:33:50,431                                   
+【执行时间】[40239]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\Common\DB\DbContext.cs                                   
+【debug行号】26                                   
+【debug类】Common.DB.DbContext`1[[hgd.Enity.User, hgd.Enity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] 属性[(null)]                                   
+【debug描述】 SELECT COUNT(1) FROM (SELECT [Id],[Name],[Age] FROM [t_user] ) CountTable 
+{}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 15:33:50,440                                   
+【执行时间】[40248]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\Common\DB\DbContext.cs                                   
+【debug行号】26                                   
+【debug类】Common.DB.DbContext`1[[hgd.Enity.User, hgd.Enity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] 属性[(null)]                                   
+【debug描述】SELECT * FROM (SELECT [Id],[Name],[Age],ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [t_user] ) T WHERE RowIndex BETWEEN 1 AND 10
+{}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 15:58:52,312                                   
+【执行时间】[6570]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\Common\DB\DbContext.cs                                   
+【debug行号】26                                   
+【debug类】Common.DB.DbContext`1[[hgd.Enity.User, hgd.Enity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] 属性[(null)]                                   
+【debug描述】 SELECT COUNT(1) FROM (SELECT [Id],[Name],[Age] FROM [t_user] ) CountTable 
+{}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 15:58:52,485                                   
+【执行时间】[6743]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\Common\DB\DbContext.cs                                   
+【debug行号】26                                   
+【debug类】Common.DB.DbContext`1[[hgd.Enity.User, hgd.Enity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] 属性[(null)]                                   
+【debug描述】SELECT * FROM (SELECT [Id],[Name],[Age],ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [t_user] ) T WHERE RowIndex BETWEEN 1 AND 10
+{}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 16:18:40,060                                   
+【执行时间】[193]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\Common\DB\DbContext.cs                                   
+【debug行号】26                                   
+【debug类】Common.DB.DbContext`1[[hgd.Enity.User, hgd.Enity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] 属性[(null)]                                   
+【debug描述】 SELECT COUNT(1) FROM (SELECT [Id],[Name],[Age] FROM [t_user] ) CountTable 
+{}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 16:18:40,221                                   
+【执行时间】[354]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\Common\DB\DbContext.cs                                   
+【debug行号】26                                   
+【debug类】Common.DB.DbContext`1[[hgd.Enity.User, hgd.Enity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] 属性[(null)]                                   
+【debug描述】SELECT * FROM (SELECT [Id],[Name],[Age],ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [t_user] ) T WHERE RowIndex BETWEEN 1 AND 10
+{}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 16:28:10,169                                   
+【执行时间】[189]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\Common\DB\DbContext.cs                                   
+【debug行号】26                                   
+【debug类】Common.DB.DbContext`1[[hgd.Enity.User, hgd.Enity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] 属性[(null)]                                   
+【debug描述】 SELECT COUNT(1) FROM (SELECT [Id],[Name],[Age] FROM [t_user] ) CountTable 
+{}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 16:28:10,339                                   
+【执行时间】[359]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\Common\DB\DbContext.cs                                   
+【debug行号】26                                   
+【debug类】Common.DB.DbContext`1[[hgd.Enity.User, hgd.Enity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] 属性[(null)]                                   
+【debug描述】SELECT * FROM (SELECT [Id],[Name],[Age],ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [t_user] ) T WHERE RowIndex BETWEEN 1 AND 10
+{}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 16:29:33,496                                   
+【执行时间】[202]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\Common\DB\DbContext.cs                                   
+【debug行号】26                                   
+【debug类】Common.DB.DbContext`1[[hgd.Enity.User, hgd.Enity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] 属性[(null)]                                   
+【debug描述】 SELECT COUNT(1) FROM (SELECT [Id],[Name],[Age] FROM [t_user] ) CountTable 
+{}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 16:29:33,651                                   
+【执行时间】[357]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\Common\DB\DbContext.cs                                   
+【debug行号】26                                   
+【debug类】Common.DB.DbContext`1[[hgd.Enity.User, hgd.Enity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] 属性[(null)]                                   
+【debug描述】SELECT * FROM (SELECT [Id],[Name],[Age],ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [t_user] ) T WHERE RowIndex BETWEEN 1 AND 10
+{}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 21:44:14,990                                   
+【执行时间】[2816]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\hgd.Service\UserService.cs                                   
+【debug行号】23                                   
+【debug类】hgd.Service.UserService 属性[(null)]                                   
+【debug描述】UPDATE [t_user]  SET
+           [Name]=@Name,[Age]=@Age  WHERE [Id]=@Id
+{"@Id":0,"@Name":"张三","@Age":20}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 21:46:22,335                                   
+【执行时间】[130161]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\hgd.Service\UserService.cs                                   
+【debug行号】23                                   
+【debug类】hgd.Service.UserService 属性[(null)]                                   
+【debug描述】UPDATE [t_user]  SET
+           [Name]=@Name,[Age]=@Age  WHERE [Id]=@Id
+{"@Id":0,"@Name":"张三","@Age":20}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 21:48:38,207                                   
+【执行时间】[266033]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\hgd.Service\UserService.cs                                   
+【debug行号】23                                   
+【debug类】hgd.Service.UserService 属性[(null)]                                   
+【debug描述】UPDATE [t_user]  SET
+           [Name]=@Name,[Age]=@Age  WHERE [Id]=@Id
+{"@Id":1,"@Name":"张三","@Age":20}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 21:52:43,137                                   
+【执行时间】[9262]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\hgd.Service\UserService.cs                                   
+【debug行号】23                                   
+【debug类】hgd.Service.UserService 属性[(null)]                                   
+【debug描述】 SELECT COUNT(1) FROM (SELECT [Id],[Name],[Age] FROM [t_user]  WHERE ( [Age] = @Age0 )) CountTable 
+{"@Age0":12}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-23 21:52:43,260                                   
+【执行时间】[9385]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\hgd.Service\UserService.cs                                   
+【debug行号】23                                   
+【debug类】hgd.Service.UserService 属性[(null)]                                   
+【debug描述】SELECT * FROM (SELECT [Id],[Name],[Age],ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [t_user]  WHERE ( [Age] = @Age0 )) T WHERE RowIndex BETWEEN 1 AND 10
+{"@Age0":12}

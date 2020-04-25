@@ -1,0 +1,50 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2020-04-22 18:38:37,310                                   
+【执行时间】[242]毫秒                                   
+【出错文件】C:\Users\Administrator\source\repos\webapi\hgd.webapi\Controllers\IndexController.cs                                   
+【出错行号】105                                   
+【出错的类】hgd.webapi.Controllers.IndexController 属性[(null)]                                   
+【错误描述】测试Error                                   
+【错误详情】
+System.Exception: Error异常
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】FATAL                                   
+【记录时间】2020-04-22 18:38:37,310                                   
+【执行时间】[242]毫秒                                   
+【出错文件】C:\Users\Administrator\source\repos\webapi\hgd.webapi\Controllers\IndexController.cs                                   
+【出错行号】106                                   
+【出错的类】hgd.webapi.Controllers.IndexController 属性[(null)]                                   
+【错误描述】测试Fatal                                   
+【错误详情】
+System.Exception: Fatal异常
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2020-04-22 22:23:50,635                                   
+【执行时间】[24100]毫秒                                   
+【出错文件】C:\Users\Administrator\source\repos\webapi\hgd.webapi\Exceptions\WebApiExceptionFilterAttribute.cs                                   
+【出错行号】40                                   
+【出错的类】hgd.webapi.Controllers.IndexController 属性[(null)]                                   
+【错误描述】controller.action=Index.UnKnow:exception=发生 I/O 错误。                                   
+【错误详情】
+System.IO.IOException: 发生 I/O 错误。
+   在 hgd.webapi.Controllers.IndexController.UnKnow() 位置 C:\Users\Administrator\source\repos\webapi\hgd.webapi\Controllers\IndexController.cs:行号 123
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_2.<GetExecutor>b__2(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()

@@ -1,0 +1,19 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-25 13:25:21,626                                   
+【执行时间】[7567]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\hgd.Service\UserService.cs                                   
+【debug行号】24                                   
+【debug类】hgd.Service.UserService 属性[(null)]                                   
+【debug描述】 SELECT COUNT(1) FROM (SELECT [Id],[Name],[Age] FROM [t_user]  WHERE ( [Age] = @Age0 )) CountTable 
+{"@Age0":12}
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2020-04-25 13:25:22,258                                   
+【执行时间】[8199]毫秒                                   
+【debug文件】C:\Users\Administrator\source\repos\webapi\hgd.Service\UserService.cs                                   
+【debug行号】24                                   
+【debug类】hgd.Service.UserService 属性[(null)]                                   
+【debug描述】SELECT * FROM (SELECT [Id],[Name],[Age],ROW_NUMBER() OVER( ORDER BY GetDate() ) AS RowIndex  FROM [t_user]  WHERE ( [Age] = @Age0 )) T WHERE RowIndex BETWEEN 11 AND 20
+{"@Age0":12}
